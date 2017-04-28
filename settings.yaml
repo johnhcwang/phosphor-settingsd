@@ -27,6 +27,13 @@ org.openbmc.settings.Host:
             default: "RESTORE_LAST_STATE"
             validation: list
             allowed: ["ALWAYS_POWER_ON", "RESTORE_LAST_STATE", "LEAVE_OFF"]
+        powerondelay:
+            name: power_on_delay
+            type: i
+            default: 0
+            min: 0
+            max: 10
+            validation: range
         restrictedmode:
             name: restricted_mode
             type: b

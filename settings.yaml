@@ -33,6 +33,7 @@ org.openbmc.settings.Host:
             default: 0
             min: 0
             max: 10
+            unit: second
             validation: range
         restrictedmode:
             name: restricted_mode
